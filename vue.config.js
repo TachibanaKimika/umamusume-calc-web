@@ -6,6 +6,7 @@ module.exports = {
     lintOnSave:false,
     outputDir:'docs',
     devServer: {
+        disableHostCheck: true,
         port: 60000,
         proxy: {
             '/api': {
