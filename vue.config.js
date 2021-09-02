@@ -5,6 +5,7 @@
 module.exports = {
     lintOnSave:false,
     outputDir:'docs',
+    publicPath: "./",
     devServer: {
         disableHostCheck: true,
         port: 60000,
