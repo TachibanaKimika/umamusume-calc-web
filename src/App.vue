@@ -7,10 +7,10 @@
     <!-- <BackGround style="z-index:-100" /> -->
     <div id="nav">
       <el-menu class="el-menu-demo" mode="horizontal" router>
-        <el-menu-item index="/">练习模拟</el-menu-item>
+        <el-menu-item index="/">使用说明</el-menu-item>
+        <el-menu-item index="/about">练习模拟</el-menu-item>
         <el-menu-item index="/SinlgeCardAnalysis">单卡分析</el-menu-item>
         <el-menu-item index="/DataAnalysis">游戏数据</el-menu-item>
-        <el-menu-item index="/about">使用说明</el-menu-item>
         <div style="float: right; line-height: 60px; padding: 0 60px;">
           <el-button @click="uploadDialog=true">上传json文件</el-button>
         </div>
@@ -29,9 +29,9 @@
       <router-view />
     </div>
     <el-dialog :visible.sync="uploadDialog" width="70%" @opened="handleOpened">
-      <el-input ref="field" type="textarea" :autosize="{ minRows: 2, maxRows: 4}" placeholder="导入新的json文件(导入前请明确你知道自己导入的数据格式是否正确)" v-model="json">
+      <el-input ref="field" type="textarea" :autosize="{ minRows: 5, maxRows: 8}" placeholder="导入json文件(TODO)" v-model="json">
       </el-input>
-      <el-button @click="importjson">导入json</el-button>
+      <el-button @click="importjson" style="margin: 20px">导入json(TODO)</el-button>
     </el-dialog>
   </div>
 </template>
@@ -71,7 +71,7 @@
         // console.log(ele);
       },
       importjson() {
-
+        // TODO
       }
     },
     computed: {

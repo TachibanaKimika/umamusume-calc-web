@@ -176,7 +176,6 @@ var calc_card_position = function(spc_attribute,card_tokuritu,mode){
         case ranNUM>=calcArrSum(rituArr,5) && ranNUM<calcArrSum(rituArr,6):
             return -1;
     }
-
 }
 
 //计算数组前n项和

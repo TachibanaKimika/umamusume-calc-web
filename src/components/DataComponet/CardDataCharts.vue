@@ -37,7 +37,7 @@
         </el-select>
 
 
-        <el-button @click="generateChart" type="success">生成表格</el-button>
+        <el-button @click="generateChart" type="success">生成图标</el-button>
       </el-header>
       <el-main><div id="Chart" class="echarts" style="width: 80em; height: 60em;"></div></el-main>
     </div>
