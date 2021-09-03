@@ -23,7 +23,7 @@ export default {
       text:`
 # umamusume-calc-web
 
-[仓库地址](https://github.com/TachibanaKimika/umamusume-calc-web) 为([umamusume-calc](https://github.com/TachibanaKimika/umamusume-calc)的web版)
+[仓库地址](https://github.com/TachibanaKimika/umamusume-calc-web)  (为[umamusume-calc](https://github.com/TachibanaKimika/umamusume-calc)的web版)
 
 部分数据来源: [wrrwrr111/pretty-derby](https://github.com/wrrwrr111/pretty-derby)
 
