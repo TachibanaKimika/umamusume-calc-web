@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-07-10 03:08:08
- * @LastEditTime: 2021-09-01 00:38:17
+ * @LastEditTime: 2021-09-04 16:25:54
  * @LastEditors: Akarichan
  * @Description: In User Settings Edit
  * @FilePath: \fake-hpf:\My Repo\umamusume-calc\src\components\SinlgeCardAnalysis.vue
@@ -148,7 +148,7 @@
                         <td>{{selected_card[i-1].spc_init_stu[j-1]}}</td>
                     </tr>
                     <tr v-for="j in 5" v-if="selected_card[i-1].spc_bonasu_pt[j-1]>0">
-                        <td>{{getAttribute(j,'bonasu')}}能力点加成</td>
+                        <td>{{getAttribute(j,'bonasu')}}ボナ</td>
                         <td>{{selected_card[i-1].spc_bonasu_pt[j-1]}}</td>
                     </tr>
                     <tr>
