@@ -71,8 +71,7 @@ export default {
 
 ### **其他**
 
-- 若游戏数据有误, 或新的数据没有提交, 请将相关问题发送给 \`hlx12155326@gmail.com\`
-- 若程序有bug, 请提交issue, 仓库地址: **https://github.com/TachibanaKimika/umamusume-calc-web**
+- 若程序有bug, 请提交issue(pr也行), 仓库地址: **https://github.com/TachibanaKimika/umamusume-calc-web**
 `,
     }
   },
