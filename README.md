@@ -4,6 +4,8 @@
 -->
 # umamusume-calc-web
 
+[地址](http://umamusume.akarichan.us)
+
 [仓库地址](https://github.com/TachibanaKimika/umamusume-calc-web)
 
 部分数据来源: [wrrwrr111/pretty-derby](https://github.com/wrrwrr111/pretty-derby)
